@@ -1,0 +1,67 @@
+{
+  "name": "affogato",
+  "version": "0.1.0",
+  "description": "Support for mocha tests under jsdom.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N/A"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "main.js",
+  "author": {
+    "name": "David",
+    "email": "dwest@pinterest.com"
+  },
+  "contributors": [
+    {
+      "name": "Kelei Xu",
+      "email": "kelei@pinterest.com"
+    },
+    {
+      "name": "Jessica Chan",
+      "email": "jessicachanstudios@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "istanbul": "^0.3.5",
+    "es6-promise": "2.0.1",
+    "chai": "1.9.1",
+    "chai-spies": "0.5.1",
+    "glob": "4.0.6",
+    "jsdom": "1.0.0-pre.7",
+    "mocha": "1.21.4",
+    "sinon": "1.10.3",
+    "sinon-chai": "2.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/N/A/issues"
+  },
+  "homepage": "https://github.com/N/A",
+  "_id": "affogato@0.0.61",
+  "scripts": {},
+  "_shasum": "7ae2d76202d98458e726271e964be278ed359c9e",
+  "_from": "affogato@",
+  "_npmVersion": "2.0.0",
+  "_npmUser": {
+    "name": "dwest-pinterest",
+    "email": "dwest@pinterest.com"
+  },
+  "maintainers": [
+    {
+      "name": "dwest-pinterest",
+      "email": "dwest@pinterest.com"
+    },
+    {
+      "name": "Jessica Chan",
+      "email": "jessicachanstudios@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "7ae2d76202d98458e726271e964be278ed359c9e",
+    "tarball": "http://registry.npmjs.org/affogato/-/affogato-0.0.61.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/affogato/-/affogato-0.0.61.tgz"
+}
