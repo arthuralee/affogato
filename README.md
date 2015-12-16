@@ -1,3 +1,5 @@
+#Affogato [![npm version](https://badge.fury.io/js/affogato.svg)](https://badge.fury.io/js/affogato)
+
 Affogato is a custom JavaScript testing framework. It includes:
 
 - MochaJS, which affogato uses as the test runner. Theoretically, affogato is test-runner agnostic and could support multiple test runners.
