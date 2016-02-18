@@ -143,6 +143,7 @@ exports.runTests = function(config) {
     var sourceJs = appSource.prefix.concat(appSource.app,appSource.suffix);
 
     jsdom.env({
+        virtualConsole: jsdom.createVirtualConsole().sendTo(console, { omitJsdomErrors: true }),
         url: url,
         html: "<div></div>",
         src: sourceJs,
