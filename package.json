@@ -4,7 +4,7 @@
   "description": "Support for mocha tests under jsdom.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arthuralee/affogato"
+    "url": "https://github.com/pinterest-web/affogato"
   },
   "engines": {
     "node": ">=0.10.0"
