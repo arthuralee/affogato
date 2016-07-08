@@ -191,14 +191,8 @@ exports.runTests = function(config) {
                     try {
                         var fileMD5 = crypto.createHash('md5').update(file).digest("hex");
                         var filename = buildDir + "/" + fileMD5 + ext;
-                        fs.unlinkSync(filename);
                     } catch (e) {
-                        /**
-                         * Errors here are generally only due
-                         * to race conditions between two processes
-                         * both running the tests. No need to expose
-                         * them to the user.
-                         **/
+                        console.error("Error", e);
                     }
                 });
             });
