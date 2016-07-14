@@ -1,6 +1,6 @@
 {
   "name": "affogato",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Support for mocha tests under jsdom.",
   "repository": {
     "type": "git",
