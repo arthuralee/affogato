@@ -78,7 +78,7 @@ exports.runTests = function(config) {
      * @type {function(object)}
      */
     var setup = config.setup;
-    
+
     /**
      * `done` callback for Mocha test runner
      * @type {function()}
@@ -143,7 +143,9 @@ exports.runTests = function(config) {
     var sourceJs = appSource.prefix.concat(appSource.app,appSource.suffix);
 
     jsdom.env({
-        virtualConsole: jsdom.createVirtualConsole().sendTo(console, { omitJsdomErrors: true }),
+        virtualConsole: jsdom.createVirtualConsole().sendTo(config.virtualConsole || console, {
+            omitJsdomErrors: true
+        }),
         url: url,
         html: "<div></div>",
         src: sourceJs,
